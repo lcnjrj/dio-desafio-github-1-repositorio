@@ -1,0 +1,10 @@
+Para usuários Debian/Ubuntu (apt-get):
+
+sudo apt-get update 
+sudo apt-get install git
+
+git --version
+  git version 2.39.2
+
+git config --global user.name "Luciana" 
+git config --global user.email "exemplo@seuemail.com.br"
