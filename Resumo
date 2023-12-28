@@ -1,3 +1,4 @@
+
 Para usuários Debian/Ubuntu (apt-get):
 
 sudo apt-get update 
@@ -91,3 +92,8 @@ Agora podemos utilizar o comando  git st para acionar o  git status.
 Para remover o alias que criamos, utilizamos o seguinte comando:
 
 $ git config --global --unset alias.st
+
+
+ Visual Studio Code oferece suporte aos repositórios do GitHub e ao Azure Repos (que faz parte do Azure DevOps).
+
+No Visual Studio Code, também é possível editar arquivos de forma local, sem que os arquivos estejam disponíveis em seu repositório no GitHub.
