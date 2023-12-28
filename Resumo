@@ -8,3 +8,26 @@ git --version
 
 git config --global user.name "Luciana" 
 git config --global user.email "exemplo@seuemail.com.br"
+
+
+Comando git init <directory> pode ser utilizado. 
+   Uma pasta chamada .git também deve começar a existir no diretório em que o comando foi executado.
+
+se você já tem um diretório e deseja verificar (clone-lo), você pode usar o comando git clone. Se você estiver tentando verificar um repositório local, use o seguinte comando:
+   git clone /path/to/local/repository
+
+Se você pretende verificar um repositório armazenado remotamente, use:
+   git clone user.name@host:/path/to/remote/repository
+
+Para adicionar qualquer arquivo, o comando é:
+   git add <nome_do_arquivo>
+
+Para fazer essas mudanças no HEAD
+   git commit –m “Adicionar qualquer mensagem sobre o commit aqui”
+Importante! Nota: Uma vez que o comando commit é executado (a partir do diretório de trabalho), o arquivo fica comprometido com o HEAD, mas ainda não é enviado para o repositório remoto
+
+Uma vez que o git push origin master é executado de dentro do diretório de trabalho, as mudanças presentes no HEAD são enviadas para o repositório remoto
+
+Se orepositório existente ainda não tiver sido clonado e você pretende estabelecer uma ligação entre o seu repositório e um servidor remoto, execute o seguinte comando:
+
+   git remote add origin <servidor>
