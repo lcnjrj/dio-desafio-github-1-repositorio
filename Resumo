@@ -81,3 +81,13 @@ git checkout -b feature_n
 Para tornar o branch disponível para outros usuários, você terá que movê-lo para o repositório remoto. Para fazer isso, use o seguinte comando:
 
 git push origin feature_n
+
+
+Git Aliases: Adicionando apelidos para os comandos do Git
+Exemplo: Criando um alias para o comando status:
+
+$ git config --global alias.st status
+Agora podemos utilizar o comando  git st para acionar o  git status.
+Para remover o alias que criamos, utilizamos o seguinte comando:
+
+$ git config --global --unset alias.st
