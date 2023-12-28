@@ -64,3 +64,20 @@ $ git reset
 $ git reset --soft
 $ git reset --mixed
 $ git reset --hard
+
+O branch padrão em qualquer projeto é sempre o master branch. Tantos branches quanto necessários podem ser criados e eventualmente mesclados ao master branch.
+
+Um novo branch pode ser criado usando o seguinte comando:
+
+git checkout -b feature_n *
+feature_n é o nome do branch.
+
+Se você deseja retornar ao master branch, o seguinte comando pode ser usado:
+
+git checkout master
+Qualquer branch pode ser excluído usando o seguinte comando:
+
+git checkout -b feature_n
+Para tornar o branch disponível para outros usuários, você terá que movê-lo para o repositório remoto. Para fazer isso, use o seguinte comando:
+
+git push origin feature_n
