@@ -1,0 +1,12 @@
+fatal: not a git repository (or any of the parent directories): .git
+
+ O Git não consegue encontrar um repositório Git na pasta em que você está trabalhando. Existem algumas possíveis razões para isso acontecer:
+
+Diretório incorreto: Certifique-se de estar no diretório correto onde o repositório Git está localizado. Use o comando cd para navegar até o diretório do repositório.
+
+Repositório não inicializado: Se você estiver tentando acessar um diretório que ainda não é um repositório Git, pode inicializá-lo executando git init dentro do diretório.
+
+Diretório danificado: Se o diretório .git estiver corrompido ou ausente, isso também pode causar esse erro.
+
+Mudança de nome ou movimentação do diretório .git: Se o diretório .git foi renomeado ou movido, o Git não será capaz de localizá-lo.
+
