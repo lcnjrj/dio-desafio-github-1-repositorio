@@ -16,11 +16,20 @@ Instale a última versão estável do Git:
 git --version
   git version 2.39.2
 
+Configurando o Git
 
+$ git config --list
+
+Configurando o nome da Branch Padrão:
+$ git config --global init.defaultBranch main
 
 git config --global user.name "Luciana" 
 git config --global user.email "exemplo@seuemail.com.br"
 
+Inicialize um repositório Git no diretório escolhido:
+$ git init
+Conecte o repositório local com o repositório remoto:
+$ git remote add origin https://github.com/username/nome-do-repositorio.git
 
 Comando git init <directory> pode ser utilizado. 
    Uma pasta chamada .git também deve começar a existir no diretório em que o comando foi executado.
