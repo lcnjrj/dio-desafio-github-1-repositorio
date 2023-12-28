@@ -52,3 +52,15 @@ Uma vez que o git push origin master é executado de dentro do diretório de tra
 Se orepositório existente ainda não tiver sido clonado e você pretende estabelecer uma ligação entre o seu repositório e um servidor remoto, execute o seguinte comando:
 
    git remote add origin <servidor>
+
+
+Como alterar a mensagem do último commit
+$ git commit --amend
+Alterando a mensagem sem abrir o editor:
+
+$ git commit --amend –m"nova mensagem"
+Como desfazer um commit
+$ git reset
+$ git reset --soft
+$ git reset --mixed
+$ git reset --hard
