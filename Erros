@@ -10,3 +10,28 @@ Diretório danificado: Se o diretório .git estiver corrompido ou ausente, isso 
 
 Mudança de nome ou movimentação do diretório .git: Se o diretório .git foi renomeado ou movido, o Git não será capaz de localizá-lo.
 
+git status
+No ramo master
+
+No commits yet
+
+Arquivos não monitorados:
+  (utilize "git add <arquivo>..." para incluir o que será submetido)
+        HEAD
+        config
+        description
+
+o Git está reconhecendo que você está no ramo master do repositório, mas ainda não tem nenhum commit realizado.
+
+Os arquivos listados como "não monitorados" podem ser arquivos que o Git ainda não está rastreando. No entanto, é um pouco incomum ver HEAD, config, e description como arquivos não monitorados no contexto de um repositório Git padrão.
+
+Aqui estão algumas etapas que você pode seguir para entender e resolver isso:
+
+Verificar o Status dos Arquivos:
+Use o comando git status para listar os arquivos não monitorados e verificar se há outros arquivos não rastreados no repositório.
+Verificar o Conteúdo dos Arquivos:
+Utilize o comando cat para visualizar o conteúdo dos arquivos listados como não monitorados, como HEAD, config e description, para ver se eles contêm informações inesperadas ou se estão vazios.
+Adicionar Arquivos ao Controle do Git:
+Se esses arquivos não são essenciais para o repositório ou se você não espera que eles estejam no controle do Git, você pode adicionar um arquivo específico ao .gitignore para excluí-los do controle do Git.
+Inicializar o Repositório (se necessário):
+Se for um novo projeto e você deseja começar do zero, você pode recriar o repositório Git. Nesse caso, você pode excluir o diretório .git e iniciar um novo repositório com git init.
