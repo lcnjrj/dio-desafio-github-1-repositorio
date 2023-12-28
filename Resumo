@@ -3,8 +3,20 @@ Para usuários Debian/Ubuntu (apt-get):
 sudo apt-get update 
 sudo apt-get install git
 
+ou
+
+Confira a doc.: < https://git-scm.com/download/linux >;
+
+Instale a última versão estável do Git:
+
+# add-apt-repository ppa:git-core/ppa
+# apt update
+# apt install git
+
 git --version
   git version 2.39.2
+
+
 
 git config --global user.name "Luciana" 
 git config --global user.email "exemplo@seuemail.com.br"
